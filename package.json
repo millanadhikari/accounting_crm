@@ -9,9 +9,20 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@chakra-ui/icons": "^1.1.7",
+    "@chakra-ui/react": "^1.8.5",
+    "@emotion/react": "^11.8.1",
+    "@emotion/styled": "^11.8.1",
+    "@reduxjs/toolkit": "^1.7.2",
+    "axios": "^0.26.0",
+    "framer-motion": "^6.2.6",
+    "icons": "^1.0.0",
     "next": "12.1.0",
-    "react": "17.0.2",
-    "react-dom": "17.0.2"
+    "react": "^17.0.2",
+    "react-dom": "17.0.2",
+    "react-icons": "^4.3.1",
+    "react-redux": "^7.2.6",
+    "react-uuid": "^1.0.2"
   },
   "devDependencies": {
     "@types/node": "17.0.18",
