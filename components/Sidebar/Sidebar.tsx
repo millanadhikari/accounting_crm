@@ -63,7 +63,8 @@ const Sidebar = () => {
       top="0"
       w={sidebarOpen ? "300px" : "80px"}
       h="100vh"
-      borderColor="red"
+      borderRight="1px solid "
+      borderColor="gray.200"
       fontFamily="sans-serif"
     >
       <Flex p={5} pt={2} alignItems="center">
@@ -78,7 +79,7 @@ const Sidebar = () => {
           />
           {sidebarOpen && (
             <Text fontWeight="bold" fontSize="1.3rem">
-              CrmUp
+              CRM-B
             </Text>
           )}
         </Flex>

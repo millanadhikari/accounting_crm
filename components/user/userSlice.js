@@ -6,6 +6,8 @@ const initialState = {
   isLoading: false,
   error: "",
   sidebarOpen:false,
+  isSuperAdmin:false,
+  isTeam:false
 };
 
 const userSlice = createSlice({
@@ -18,6 +20,8 @@ const userSlice = createSlice({
     getUserSuccess: (state, { payload }) => {
       state.isLoading = false;
       state.user = payload;
+      state.isSuperAdmin = payload.isSuperAdmin
+      state.isTeam = payload.isTeam
       state.error = "";
     },
     getUserFail: (state, { payload }) => {
