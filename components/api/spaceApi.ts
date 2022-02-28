@@ -3,6 +3,7 @@ import axios from "axios";
 const rootUrl = "http://localhost:3001/v1/";
 const spacesUrl = rootUrl + "space/all";
 const closeTicketUrl = rootUrl + "ticket/close-ticket/";
+const addUserUrl = rootUrl + 'user'
 
 export const getAllSpaces = () => {
     return new Promise(async (resolve, reject) => {
@@ -19,3 +20,4 @@ export const getAllSpaces = () => {
       }
     });
   };
+
