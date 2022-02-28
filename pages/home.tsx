@@ -4,6 +4,8 @@ import React from "react";
 import { AiOutlineFullscreen } from "react-icons/ai";
 import { BiRefresh } from "react-icons/bi";
 import { MdAlternateEmail } from "react-icons/md";
+import LineUp from "../components/homeComponents/homeLists/LineUp";
+import MyWork from "../components/homeComponents/homeLists/MyWork";
 import { useAppDispatch, useAppSelector } from "../components/hooks/hooks";
 
 const home = () => {
@@ -80,6 +82,8 @@ const home = () => {
         
         </Flex>
       </Flex>
+      <LineUp/>
+      <MyWork/>
 
       {/* <Box backgroundColor="gray.100" py={16}>
             <BookingList />

@@ -1,9 +1,12 @@
 import axios from "axios";
 
+
 const rootUrl = "http://localhost:3001/v1/";
 const loginUrl = rootUrl + "user/login";
 const newAccessJWT = rootUrl + "user/tokens";
 const userProfileUrl = rootUrl + "user"
+
+
 const logoutUrl = rootUrl + "user/logout";
 
 export const userLogin = (frmData:any) => {
